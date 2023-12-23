@@ -12,12 +12,14 @@ async function main() {
 	const elapsed = await time(async () => {
 		await resetOutDir()
 		await copyStaticFiles()
+
 		const art = await findAllArtFiles()
-		const template = await createTemplateHtml("artpage")
-	
+		const artPageTemplate = await createTemplateHtml("artpage")
 		await Promise.all(art.map((filepath) => {
-			return createArtWebPage(filepath, template)
+			return createArtWebPage(filepath, artPageTemplate)
 		}))
+
+		await createHomePage(art)
 	})
 
 	console.log(`...done! (${elapsed / 1000} seconds)`)
@@ -55,7 +57,28 @@ async function createArtWebPage(filepath, template) {
 
 	await fs.mkdir(path.join(OUT_DIR, dir), { recursive: true })
 	await fs.copyFile(path.join(ART_DIR, filepath), path.join(OUT_DIR, filepath))
-	await fs.writeFile(path.join(OUT_DIR, dir, `${name}.html`), content)
+	await fs.writeFile(path.join(OUT_DIR, dir, `${name}.html`), content, "utf-8")
+}
+
+async function createHomePage(art) {
+	const homePageTemplate = await createTemplateHtml("homepage")
+	const artLinkTemplate = await createTemplateHtml("artlink")
+
+	const artLinks = art.map((filepath) => {
+		const { dir, name } = path.parse(filepath)
+
+		return artLinkTemplate({
+			href: path.join("/", dir, name),
+			src: path.join("/", filepath),
+			alt: "TODO",
+		})
+	})
+
+	const content = homePageTemplate({
+		items: artLinks.join("\n")
+	})
+
+	await fs.writeFile(path.join(OUT_DIR, "index.html"), content, "utf-8")
 }
 
 async function createTemplateHtml(name) {
