@@ -1,0 +1,25 @@
+{
+	"name": "ematea.art",
+	"version": "0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "node site/build.js",
+		"start": "serve build -l 3001",
+		"watch": "watch \"cp -R site/static/* build\" ./site/static",
+		"dev": "pnpm build && concurrently npm:watch npm:start"
+	},
+	"author": {
+		"name": "Timothy Foster",
+		"url": "https://auroratide.com"
+	},
+	"packageManager": "pnpm@8.12.1",
+	"engines": {
+		"pnpm": "^8.0.0"
+	},
+	"devDependencies": {
+		"concurrently": "^8.2.2",
+		"serve": "^14.2.1",
+		"watch": "^1.0.2"
+	}
+}
