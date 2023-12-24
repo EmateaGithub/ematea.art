@@ -61,8 +61,8 @@ async function createArtWebPage(art, template) {
 		alt: art.description,
 	})
 
-	await fs.mkdir(path.join(OUT_DIR, art.dir), { recursive: true })
-	await fs.writeFile(path.join(OUT_DIR, art.dir, `${art.name}.html`), content, "utf-8")
+	await fs.mkdir(path.join(OUT_DIR, art.dir, art.name), { recursive: true })
+	await fs.writeFile(path.join(OUT_DIR, art.dir, art.name, "index.html"), content, "utf-8")
 	await createOptimizeArtAsset(art)
 }
 
