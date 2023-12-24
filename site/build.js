@@ -1,6 +1,7 @@
 import * as path from "path"
 import * as fs from "fs/promises"
 import { XMLParser } from "fast-xml-parser"
+import { optimize as svgo } from "svgo"
 
 const THIS_DIR = path.dirname(new URL(import.meta.url).pathname)
 const STATIC_DIR = path.join(THIS_DIR, "static")
@@ -58,8 +59,17 @@ async function createArtWebPage(art, template) {
 	})
 
 	await fs.mkdir(path.join(OUT_DIR, art.dir), { recursive: true })
-	await fs.copyFile(path.join(ART_DIR, art.fullPath), path.join(OUT_DIR, art.fullPath))
 	await fs.writeFile(path.join(OUT_DIR, art.dir, `${art.name}.html`), content, "utf-8")
+	await createOptimizeArtAsset(art)
+}
+
+async function createOptimizeArtAsset(art) {
+	const svg = await fs.readFile(path.join(ART_DIR, art.fullPath), "utf-8")
+	const optimizedSvg = await svgo(svg, {
+		multipass: true,
+	})
+
+	await fs.writeFile(path.join(OUT_DIR, art.fullPath), optimizedSvg.data, "utf-8")
 }
 
 async function createHomePage(art) {
