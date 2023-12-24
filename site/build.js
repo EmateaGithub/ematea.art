@@ -28,7 +28,10 @@ async function main() {
 }
 
 async function resetOutDir() {
-	await fs.rm(OUT_DIR, { recursive: true })
+	if (await directoryExists(OUT_DIR)) {
+		await fs.rm(OUT_DIR, { recursive: true })
+	}
+
 	await fs.mkdir(OUT_DIR, { recursive: true })
 }
 
@@ -128,6 +131,20 @@ async function getArtFileDetails(filepath) {
 
 function isArtFile(filepath) {
 	return path.extname(filepath) === ".svg"
+}
+
+async function directoryExists(dir) {
+	try {
+		const stat = await fs.stat(dir)
+
+		return stat.isDirectory()
+	} catch (err) {
+		if (err.code === "ENOENT") {
+			return false
+		}
+
+		throw err
+	}
 }
 
 async function time(fn) {
