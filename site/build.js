@@ -1,5 +1,6 @@
 import * as path from "path"
 import * as fs from "fs/promises"
+import { XMLParser } from "fast-xml-parser"
 
 const THIS_DIR = path.dirname(new URL(import.meta.url).pathname)
 const STATIC_DIR = path.join(THIS_DIR, "static")
@@ -15,8 +16,8 @@ async function main() {
 
 		const art = await findAllArtFiles()
 		const artPageTemplate = await createTemplateHtml("artpage")
-		await Promise.all(art.map((filepath) => {
-			return createArtWebPage(filepath, artPageTemplate)
+		await Promise.all(art.map((artDetails) => {
+			return createArtWebPage(artDetails, artPageTemplate)
 		}))
 
 		await createHomePage(art)
@@ -40,37 +41,39 @@ async function copyStaticFiles() {
 
 async function findAllArtFiles() {
 	const artFoldersAndFiles = await fs.readdir(ART_DIR, { recursive: true })
+	const artFiles = artFoldersAndFiles.filter(isArtFile)
 
-	return artFoldersAndFiles.filter(isArtFile)
+	return Promise.all(artFiles.map(getArtFileDetails))
 }
 
-async function createArtWebPage(filepath, template) {
-	const { dir, name } = path.parse(filepath)
-	console.log(`\t...creating ${filepath}`)
+async function createArtWebPage(art, template) {
+	console.log(`\t...creating ${art.dir}/${art.name}`)
 
 	const content = template({
-		title: name,
-		src: path.join("/", filepath),
-		alt: "TODO",
-		desc: "TODO"
+		title: art.title,
+		src: art.src,
+		width: art.width,
+		height: art.height,
+		alt: art.description,
 	})
 
-	await fs.mkdir(path.join(OUT_DIR, dir), { recursive: true })
-	await fs.copyFile(path.join(ART_DIR, filepath), path.join(OUT_DIR, filepath))
-	await fs.writeFile(path.join(OUT_DIR, dir, `${name}.html`), content, "utf-8")
+	await fs.mkdir(path.join(OUT_DIR, art.dir), { recursive: true })
+	await fs.copyFile(path.join(ART_DIR, art.fullPath), path.join(OUT_DIR, art.fullPath))
+	await fs.writeFile(path.join(OUT_DIR, art.dir, `${art.name}.html`), content, "utf-8")
 }
 
 async function createHomePage(art) {
 	const homePageTemplate = await createTemplateHtml("homepage")
 	const artLinkTemplate = await createTemplateHtml("artlink")
 
-	const artLinks = art.map((filepath) => {
-		const { dir, name } = path.parse(filepath)
-
+	const artLinks = art.map(({ id, href, src, title, width, height }) => {
 		return artLinkTemplate({
-			href: path.join("/", dir, name),
-			src: path.join("/", filepath),
-			alt: "TODO",
+			id,
+			name: title,
+			href,
+			src,
+			width,
+			height,
 		})
 	})
 
@@ -88,6 +91,28 @@ async function createTemplateHtml(name) {
 		return templateHtml.replace(/%([^%]+)%/g, (_, key) => {
 			return substitutions[key]
 		})	
+	}
+}
+
+async function getArtFileDetails(filepath) {
+	const { dir, name } = path.parse(filepath)
+
+	const svg = await fs.readFile(path.join(ART_DIR, filepath), "utf-8")
+	const svgObj = new XMLParser({
+		ignoreAttributes: false,
+	}).parse(svg)
+
+	return {
+		id: `${dir.replaceAll("/", "-")}-${name}`,
+		dir,
+		name,
+		href: path.join("/", dir, name),
+		src: path.join("/", filepath),
+		fullPath: filepath,
+		title: svgObj.svg.title["#text"],
+		width: parseFloat(svgObj.svg["@_width"]),
+		height: parseFloat(svgObj.svg["@_height"]),
+		description: svgObj.svg.metadata?.["rdf:RDF"]?.["cc:Work"]?.["dc:description"],
 	}
 }
 
