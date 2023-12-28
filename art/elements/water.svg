@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="52.161289mm"
+   height="52.161289mm"
+   viewBox="0 0 52.161289 52.161289"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="water.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title254">Water Element</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4912878"
+     inkscape:cx="76.108714"
+     inkscape:cy="113.99543"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="bg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-79.483862,-72.387091)">
+    <path
+       style="fill:#124d65;fill-opacity:1;stroke:none;stroke-width:0.794;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path234"
+       sodipodi:type="arc"
+       sodipodi:cx="105.56451"
+       sodipodi:cy="98.467735"
+       sodipodi:rx="26.080645"
+       sodipodi:ry="26.080645"
+       sodipodi:start="2.9418559"
+       sodipodi:end="2.9214972"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M 80.002375,103.64243 A 26.080645,26.080645 0 0 1 100.25978,72.932273 26.080645,26.080645 0 0 1 131.07264,93.033107 26.080645,26.080645 0 0 1 111.12889,123.94788 26.080645,26.080645 0 0 1 80.113015,104.16173"
+       inkscape:label="outline" />
+    <path
+       style="fill:#1d74a8;fill-opacity:1;stroke:none;stroke-width:0.793999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 103.33285,75.570224 c 11.81547,-0.858147 20.82109,5.79497 24.2241,19.435199 3.40302,13.640227 -9.9893,26.530817 -21.07263,25.638007 -11.083322,-0.89281 -22.631651,-9.6891 -22.543569,-20.2925 0.08808,-10.603398 7.576617,-23.922559 19.392099,-24.780706 z"
+       id="path2404"
+       sodipodi:nodetypes="zzzzz"
+       inkscape:label="inner" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="fg"
+     transform="translate(-79.483862,-72.387091)">
+    <path
+       style="fill:#124d65;stroke-width:0.696101;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1"
+       d="m 106.04933,81.975721 c 2.2724,0.01785 4.91077,2.204856 4.99747,5.209868 0.0867,3.005012 -1.94386,6.786825 -4.9928,6.876584 -3.04894,0.08976 -5.40797,-3.589514 -5.41377,-6.835496 -0.006,-3.245982 3.1367,-5.268804 5.4091,-5.250956 z"
+       id="path1628"
+       sodipodi:nodetypes="zzzzz" />
+    <path
+       style="fill:#124d65;stroke-width:0.823822;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;fill-opacity:1"
+       d="m 106.40054,97.581518 c 5.97455,-0.110462 11.64603,1.424496 11.97287,7.607802 0.32684,6.1833 -5.01048,10.49391 -12.18266,10.71235 -7.172183,0.21843 -11.946602,-4.71155 -12.103781,-9.93474 -0.157178,-5.22319 6.339021,-8.274948 12.313571,-8.385412 z"
+       id="path1630"
+       sodipodi:nodetypes="zzzzz" />
+  </g>
+  <metadata
+     id="metadata252">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Water Element</dc:title>
+        <dc:description>Blue circle with two ovals</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

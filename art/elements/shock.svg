@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="52.161289mm"
+   height="52.161289mm"
+   viewBox="0 0 52.161289 52.161289"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="shock.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title254">Shock Element</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4912878"
+     inkscape:cx="46.268735"
+     inkscape:cy="14.081789"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer3" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="bg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-79.483862,-72.387091)">
+    <path
+       style="fill:#544900;fill-opacity:1;stroke:none;stroke-width:0.794;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path234"
+       sodipodi:type="arc"
+       sodipodi:cx="105.56451"
+       sodipodi:cy="98.467735"
+       sodipodi:rx="26.080645"
+       sodipodi:ry="26.080645"
+       sodipodi:start="2.9418559"
+       sodipodi:end="2.9214972"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M 80.002375,103.64243 A 26.080645,26.080645 0 0 1 100.25978,72.932273 26.080645,26.080645 0 0 1 131.07264,93.033107 26.080645,26.080645 0 0 1 111.12889,123.94788 26.080645,26.080645 0 0 1 80.113015,104.16173"
+       inkscape:label="outline" />
+    <path
+       style="fill:#b3a503;fill-opacity:1;stroke:none;stroke-width:0.793999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 99.085499,76.138654 c 11.479741,-2.608723 22.173801,0.650828 28.100171,17.26499 5.92637,16.614166 -8.24386,26.215036 -19.6384,27.542556 -11.394541,1.32752 -15.285438,-2.80713 -21.760617,-13.06803 -6.475179,-10.260896 1.819109,-29.130793 13.298846,-31.739516 z"
+       id="path2404"
+       sodipodi:nodetypes="zzzzz"
+       inkscape:label="inner" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="fg"
+     transform="translate(-79.483862,-72.387091)">
+    <path
+       style="fill:#544900;fill-opacity:1;stroke-width:0.780826;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 107.87096,77.798382 -14.903227,10.705041 9.923357,9.698185 -3.274679,-9.729234 z"
+       id="path15287"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#544900;fill-opacity:1;stroke-width:0.985829;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 107.8241,85.959673 15.0388,17.806847 -24.129037,12.17703 12.065637,-15.0985 z"
+       id="path16030"
+       sodipodi:nodetypes="ccccc" />
+  </g>
+  <metadata
+     id="metadata252">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Shock Element</dc:title>
+        <dc:description>Yellow circle with two V shapes.</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

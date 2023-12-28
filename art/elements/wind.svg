@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="52.161289mm"
+   height="52.161289mm"
+   viewBox="0 0 52.161289 52.161289"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="wind.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title254">Wind Element</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.9825756"
+     inkscape:cx="34.198631"
+     inkscape:cy="61.021086"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="bg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-79.483862,-72.387091)">
+    <path
+       style="fill:#335018;fill-opacity:1;stroke:none;stroke-width:0.794;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       id="path234"
+       sodipodi:type="arc"
+       sodipodi:cx="105.56451"
+       sodipodi:cy="98.467735"
+       sodipodi:rx="26.080645"
+       sodipodi:ry="26.080645"
+       sodipodi:start="2.9418559"
+       sodipodi:end="2.9214972"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M 80.002375,103.64243 A 26.080645,26.080645 0 0 1 100.25978,72.932273 26.080645,26.080645 0 0 1 131.07264,93.033107 26.080645,26.080645 0 0 1 111.12889,123.94788 26.080645,26.080645 0 0 1 80.113015,104.16173"
+       inkscape:label="outline" />
+    <path
+       style="fill:#477e1b;fill-opacity:1;stroke:none;stroke-width:0.793999;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;paint-order:stroke fill markers"
+       d="m 93.45909,80.161898 c 12.74169,-7.57866 24.60651,-7.00062 30.94237,6.304715 6.33586,13.305334 2.77143,27.884407 -8.89758,32.488947 -11.669,4.60454 -19.559545,3.11748 -27.43179,-5.10982 -7.872246,-8.22729 -7.354695,-26.105181 5.387,-33.683842 z"
+       id="path2404"
+       sodipodi:nodetypes="zzzzz"
+       inkscape:label="inner" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="fg"
+     transform="translate(-79.483862,-72.387091)">
+    <path
+       style="fill:#335018;fill-opacity:1;stroke-width:1.12535;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 92.515811,90.513766 c 4.405104,3.625901 8.798539,11.850284 0.694043,17.310244 0,0 9.087436,-0.5285 8.886376,-8.4663 -0.20105,-7.937795 -9.580419,-8.843944 -9.580419,-8.843944 z"
+       id="path9460"
+       sodipodi:nodetypes="cczc" />
+    <path
+       style="fill:#335018;fill-opacity:1;stroke-width:1.13043;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 101.59117,81.042814 c 9.8301,10.600652 15.94318,21.694126 1.05414,35.589966 0,0 17.67731,-2.02778 17.54878,-17.969658 -0.12853,-15.941881 -18.60292,-17.620308 -18.60292,-17.620308 z"
+       id="path10257"
+       sodipodi:nodetypes="cczc" />
+  </g>
+  <metadata
+     id="metadata252">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Wind Element</dc:title>
+        <dc:description>Green circle with two moon shapes.</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
