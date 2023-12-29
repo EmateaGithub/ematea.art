@@ -59,6 +59,7 @@ async function createArtWebPage(art, template) {
 		width: art.width,
 		height: art.height,
 		alt: art.description,
+		href: art.href,
 	})
 
 	await fs.mkdir(path.join(OUT_DIR, art.dir, art.name), { recursive: true })
