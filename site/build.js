@@ -36,11 +36,7 @@ async function resetOutDir() {
 }
 
 async function copyStaticFiles() {
-	const staticFiles = await fs.readdir(STATIC_DIR)
-
-	await Promise.all(staticFiles.map((file) => {
-		return fs.copyFile(path.join(STATIC_DIR, file), path.join(OUT_DIR, file))
-	}))
+	await fs.cp(STATIC_DIR, OUT_DIR, { recursive: true })
 }
 
 async function findAllArtFiles() {
