@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1200"
+   height="1200"
+   viewBox="0 0 317.49999 317.5"
+   version="1.1"
+   id="svg6380"
+   sodipodi:docname="logo-v2.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title18829">Ematea Logo</title>
+  <sodipodi:namedview
+     id="namedview6382"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.78127806"
+     inkscape:cx="681.57552"
+     inkscape:cy="446.70396"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10427" />
+  <defs
+     id="defs6377" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="outline-raw"
+     style="display:none">
+    <path
+       style="fill:#79b675;fill-opacity:1;stroke-width:0.664403;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="path9601"
+       sodipodi:type="arc"
+       sodipodi:cx="158.95447"
+       sodipodi:cy="158.52577"
+       sodipodi:rx="174.33044"
+       sodipodi:ry="174.33044"
+       sodipodi:start="2.9418559"
+       sodipodi:end="2.9214972"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="M -11.910086,193.11491 A 174.33044,174.33044 0 0 1 123.49614,-12.160521 174.33044,174.33044 0 0 1 329.45808,122.19917 174.33044,174.33044 0 0 1 196.1484,328.84229 174.33044,174.33044 0 0 1 -11.170536,196.58608"
+       inkscape:label="circle" />
+    <path
+       style="display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.793999;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 309.80312,160.54183 c -14.09176,-30.21477 -44.91497,-53.43653 -76.89279,-65.975384 -24.53621,-9.620917 -51.7116,-4.951468 -57.80352,19.867264 -6.09191,24.81872 32.36145,38.70678 55.9206,49.16408 -23.62653,9.86763 -62.00604,24.1305 -56.20932,49.92288 5.79673,25.79237 41.34277,26.65872 65.10469,17.006 23.76192,-9.65273 58.27276,-42.28851 69.88034,-69.98484 z"
+       id="path10307-3-9"
+       sodipodi:nodetypes="cszczzc"
+       inkscape:label="heart" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="g10427"
+     inkscape:label="outline"
+     style="display:inline">
+    <path
+       id="path10423"
+       style="display:inline;fill:#1f0027;fill-opacity:1;stroke-width:0.605024;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       inkscape:label="circle"
+       d="M 161.74159,0.028184 A 158.75016,158.74996 0 0 0 126.46079,3.318475 158.75016,158.74996 0 0 0 3.156123,190.24767 l 0.673399,3.16088 A 158.75016,158.74996 0 0 0 192.61963,313.84488 158.75016,158.74996 0 0 0 314.01516,125.67006 158.75016,158.74996 0 0 0 161.74159,0.028184 Z m 43.363,96.240545 c 6.79243,0.03337 14.00934,1.500209 20.99164,4.238041 29.11986,11.4182 57.18856,32.56451 70.02089,60.07886 -10.57018,25.22099 -41.99688,54.94008 -63.63513,63.73011 -21.63824,8.79001 -54.00736,8.00136 -59.28602,-15.48583 -5.27864,-23.48721 29.67051,-36.47555 51.18546,-45.46126 -21.45359,-9.52269 -56.47033,-22.16942 -50.92288,-44.76999 3.8139,-15.53789 16.70269,-22.403354 31.64604,-22.329931 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="shapes"
+     style="display:inline">
+    <path
+       style="fill:#99478f;fill-opacity:1;stroke-width:0.221379;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="M 84.55717,284.22453 C 3.150113,118.13219 200.63349,8.2623562 302.54863,143.67167 282.04848,13.379182 154.98181,-8.699141 82.769002,34.36582 10.55619,77.43078 -27.198804,213.28597 84.55717,284.22453 Z"
+       id="path6940"
+       sodipodi:nodetypes="cczc"
+       inkscape:label="top" />
+    <path
+       style="fill:#e2ca65;fill-opacity:1;stroke-width:0.221379;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 206.74397,163.14326 c -23.28479,4.57389 -69.12013,32.0492 -66.96256,67.33825 2.15758,35.28902 47.72496,61.83954 84.70715,58.13638 -26.8944,16.66824 -91.94649,25.76817 -122.0397,-6.78725 -39.878354,-43.1412 -33.314279,-151.29468 50.08571,-179.93341 -27.54935,44.78622 30.84253,59.35143 54.2094,61.24603 z"
+       id="path8463"
+       sodipodi:nodetypes="czcscc"
+       inkscape:label="center" />
+    <path
+       style="fill:#9a73a5;fill-opacity:1;stroke-width:0.221379;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       d="m 152.826,234.03617 c 76.94583,26.72652 120.33733,-19.60321 149.69561,-57.68179 -2.73397,40.18653 -28.03967,83.89475 -61.20414,96.51839 -23.97303,9.12505 -72.52481,6.65523 -88.49147,-38.8366 z"
+       id="path9191"
+       sodipodi:nodetypes="ccsc"
+       inkscape:label="bottom" />
+  </g>
+  <metadata
+     id="metadata18827">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Ematea Logo</dc:title>
+        <dc:description>Tri-colored circular letter E</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
