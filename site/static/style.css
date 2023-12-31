@@ -46,18 +46,31 @@ a {
 	color: oklch(61% 0.249 317);
 }
 
-a:hover .button-like, a:focus .button-like {
+a:hover .back-button, a:focus .back-button {
 	border-color: oklch(86% 0.155 87);
+	color: oklch(86% 0.155 87);
 }
 
-.button-like {
+a:active .back-button svg {
+	inset-inline-start: -0.0625em;
+}
+
+.back-button {
 	display: inline-block;
 	border: 0.25em solid currentColor;
 	border-radius: 0.5em;
-	padding: 0.375em 0.5em;
 	line-height: 1;
 	transition:
-		border-color 0.125s ease-in-out;
+		border-color 0.125s ease-in-out,
+		color 0.125s ease-in-out;
+}
+
+.back-button svg {
+	position: relative;
+	font-size: 2rem;
+	width: 1em;
+	height: 1em;
+	display: block;
 }
 
 a:hover, a:focus {
