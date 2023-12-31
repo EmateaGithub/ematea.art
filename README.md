@@ -26,4 +26,4 @@ The app is so tiny and featureless that tests aren't necessary here. I may add a
 
 ## How this works
 
-A custom tiny Static Site Generator (SSG) converts each individual SVG into a web page. It's all in [./site/build.js](build.js).
+A custom tiny Static Site Generator (SSG) converts each individual SVG into a web page. It's all in [build.js](./site/build.js).
