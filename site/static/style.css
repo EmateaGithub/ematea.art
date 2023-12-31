@@ -182,3 +182,7 @@ a:hover .card, a:focus .card {
 	background-color: oklch(0% 0 0 / 0.8);
 	border-radius: 0 0 0.333rem 0.333rem;
 }
+
+.center-text {
+	text-align: center;
+}
