@@ -3,6 +3,10 @@
 	margin-block-start: 0;
 }
 
+html {
+	background-color: oklch(20% 0.015 320);
+}
+
 body {
 	font-family: "Lexend", ui-sans-serif;
 	font-size: clamp(1rem, 2vw, 1.2rem);
@@ -16,6 +20,7 @@ body {
 	color: oklch(90% 0.007 330);
 	margin: 0;
 	min-height: 100vh;
+	min-height: 100dvh;
 }
 
 header {
@@ -91,6 +96,7 @@ header a:focus {
 
 footer {
 	text-align: center;
+	padding-block: 2em;
 }
 
 footer small {
