@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 120 120" width="120mm" height="120mm">
+	<title>Vercon Logo</title>
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type
+					rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+				<dc:title>Vercon Logo</dc:title>
+				<dc:description>Shield shape with a V inside.</dc:description>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<path
+		d="M 60 0 L 0 30 C 0 30 3.1100912 120 60 120 C 116.88991 120 120 30 120 30 L 60 0 z M 60 13.035156 L 106.96484 36.517578 C 106.96484 36.517578 106.77426 41.832321 105.58984 49.523438 L 60 26.078125 L 14.410156 49.523438 C 13.225735 41.832321 13.035156 36.517578 13.035156 36.517578 L 60 13.035156 z M 60 39.117188 L 82.396484 51.152344 L 60 80 L 37.603516 51.152344 L 60 39.117188 z M 27.205078 56.740234 L 60 97.5 L 92.794922 56.740234 L 103.02344 62.238281 C 97.924899 82.365219 86.315568 106.96484 60 106.96484 C 33.684434 106.96484 22.075101 82.365219 16.976562 62.238281 L 27.205078 56.740234 z "
+		fill="#b4b4b4" />
+</svg>

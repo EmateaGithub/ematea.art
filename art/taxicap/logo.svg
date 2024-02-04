@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg"  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 120 120" width="120mm" height="120mm">
+	<title>Taxicap Logo</title>
+   <metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type
+					rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+				<dc:title>Taxicap Logo</dc:title>
+				<dc:description>Striped trapezoid</dc:description>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<path d="
+		M 0 2
+		l 120 0
+		l -31.058 115.911
+		l -7.247 -27.046
+		l 20.060 -74.865
+		l -98.497 0
+	Z" fill="#f2b023" />
+	<path d="M 71 27 l 14 0 l -16.5 63 l -14 0 Z" fill="#f2b023" />
+	<path d="M 44 27 l 14 0 l -16.5 63 l -14 0 Z" fill="#f2b023" />
+	<path d="M 17 27 l 14 0 l -13 50 l -7 -30 Z" fill="#f2b023" />
+</svg>
