@@ -119,7 +119,7 @@ async function getArtFileDetails(filepath) {
 		href: path.join("/", dir, name),
 		src: path.join("/", filepath),
 		fullPath: filepath,
-		title: svgObj.svg.title["#text"],
+		title: svgObj.svg.title["#text"] ?? svgObj.svg.title,
 		width: parseFloat(svgObj.svg["@_width"]),
 		height: parseFloat(svgObj.svg["@_height"]),
 		description: svgObj.svg.metadata?.["rdf:RDF"]?.["cc:Work"]?.["dc:description"],
