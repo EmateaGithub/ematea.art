@@ -127,10 +127,10 @@ async function getArtFileDetails(filepath) {
 }
 
 function isArtFile(filepath) {
-	const isRef = filepath.split(path.sep).includes(".ref")
+	const isHidden = filepath.split(path.sep).some((it) => it.startsWith("."))
 	const isSvg = path.extname(filepath) === ".svg"
 
-	return !isRef && isSvg
+	return !isHidden && isSvg
 }
 
 async function directoryExists(dir) {
