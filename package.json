@@ -17,10 +17,7 @@
 		"name": "Timothy Foster",
 		"url": "https://auroratide.com"
 	},
-	"packageManager": "pnpm@8.12.1",
-	"engines": {
-		"pnpm": "^8.0.0"
-	},
+	"packageManager": "pnpm@10.29.2",
 	"devDependencies": {
 		"@biomejs/biome": "^2.4.4",
 		"@sveltejs/adapter-static": "^3.0.10",
