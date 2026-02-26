@@ -1,0 +1,58 @@
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin-block-start: 0;
+}
+
+html {
+	background-color: oklch(20% 0.015 320);
+	margin: 0;
+}
+
+body {
+	font-family: "Lexend", ui-sans-serif;
+	font-size: clamp(1rem, 2vw, 1.2rem);
+	background:
+		radial-gradient(
+			circle at 50% 1pc,
+			oklch(27% 0.022 350),
+			oklch(20% 0.015 320)
+		);
+	color: oklch(90% 0.007 330);
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+	min-height: 100dvh;
+}
+
+h1 {
+	margin: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: oklch(0.6119 0.0861 318.69);
+}
+
+a:hover .back-button, a:focus .back-button {
+	border-color: oklch(86% 0.155 87);
+	color: oklch(86% 0.155 87);
+}
+
+a:active .back-button svg {
+	inset-inline-start: -0.0625em;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+}
