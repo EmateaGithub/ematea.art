@@ -1,6 +1,6 @@
 import type { ArtMetadata } from "$lib/ArtMetadata"
-import type { PageLoad } from "./$types"
 import { AkazaChan } from "$lib/artists"
+import type { PageLoad } from "./$types"
 import src from "./parie-concept.png"
 
 const metadata: ArtMetadata = {

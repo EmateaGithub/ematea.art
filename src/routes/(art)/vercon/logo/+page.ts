@@ -1,6 +1,6 @@
 import type { ArtMetadata } from "$lib/ArtMetadata"
-import type { PageLoad } from "./$types"
 import { Auroratide } from "$lib/artists"
+import type { PageLoad } from "./$types"
 import src from "./logo.svg?url"
 
 const metadata: ArtMetadata = {

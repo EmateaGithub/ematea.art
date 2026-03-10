@@ -1,11 +1,11 @@
 import type { ArtMetadata } from "$lib/ArtMetadata"
-import type { PageLoad } from "./$types"
 import { Auroratide } from "$lib/artists"
-import src from "./stream.svg?url"
+import type { PageLoad } from "./$types"
+import src from "./logo.svg?url"
 
 const metadata: ArtMetadata = {
-	title: "Stream Element",
-	description: "Blue circle with two circles.",
+	title: "Ematea Logo",
+	description: "Circular tri-colored letter E.",
 	artist: Auroratide,
 	width: 120,
 	height: 120,
